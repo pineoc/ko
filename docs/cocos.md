@@ -2,26 +2,25 @@
 
 <h1>SDKBOX for Cocos</h1>
 
-##Overview
-SDKBOX support ALL the recent versions (v2.2.6+) for Cocos/Cocos2d-x game engine, including  C++, Javascript and Lua. 
+## 개요
+SDKBOX는 C ++, Javascript 및 Lua를 포함하여 Cocos / Cocos2d-x 게임 엔진용 최신 버전 (v2.2.6 이상)을 모두 지원합니다.
 
 
-##Integration
-You can install SDKBOX plugins using one of these three methods.  
+## 구성
+이 세 가지 방법 중 하나를 사용하여 SDKBOX 플러그인을 설치할 수 있습니다.
 
 
-### By SDKBOX CLI Installer
-SDKBOX Installer is an optional command line tool for any version of cocos2d-x projects, including both v2.x and v3.x. It lets you integrate SDK plugins by a single line of command. ([Learn more](http://docs.sdkbox.com/en/installer/))
+### SDKBOX CLI Installer
+SDKBOX Installer는 v2.x 및 v3.x를 포함하여 cocos2d-x 프로젝트의 모든 버전에 대한 추가적인 CLI 도구입니다. 한 줄의 명령으로 SDK 플러그인을 통합 할 수 있습니다.([Learn more](http://docs.sdkbox.com/en/installer/))
 
 
-### From Cocos Creator
-We are working on a plugin for Creator which will allow you to integrate SDKBOX plugins directly from UI. For now, you can still use SDKBOX installer. ([Learn more](qa/integration-admob-to-creator.md))
+### Cocos Creator
+우리는 UI에서 직접 SDKBOX 플러그인을 통합 할 수있는 Creator 용 플러그인을 개발 중입니다. 지금은 SDKBOX 설치 프로그램을 계속 사용할 수 있습니다. ([Learn more](qa/integration-admob-to-creator.md))
 
 
-### By installing manually
-If you prefer to see exactly which libraries and assets are needed for a integration, you can download the plugin bundle file. A bundle packages everything including SDK libs, instructions, and sample codes. You can download the bundle files from [the SDKBOX Plugins page](http://sdkbox.com). 
+### 수동 설치
+통합을 위해 필요한 라이브러리 및 소스를 정확히보고 싶다면 플러그인 번들 파일을 다운로드 할 수 있습니다. 번들은 SDK 라이브러리, 명령어 및 샘플 코드를 포함한 모든 것이 패키징되어있습니다. [SDKBOX Plugins page](http://sdkbox.com) 에서 번들 파일을 다운로드 할 수 있습니다.
 
 
-!!! note
-    After integration, please make sure to check out each plugin's individual documentation for the detail information about updateing settings and calling APIs from your game.
-
+!!! note 
+    통합 후 설정 업데이트 및 게임에서 API 호출에 대한 세부 정보는 각 플러그인의 개별 설명서를 확인하십시오.
